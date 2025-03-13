@@ -26,9 +26,9 @@ Switching to the WebSocket Hibernation API reduces duration billing from the lif
 
 ## Learn More
 
-* [Durable Objects introductory blog post](https://blog.cloudflare.com/introducing-workers-durable-objects)
-* [Durable Objects documentation](https://developers.cloudflare.com/workers/learning/using-durable-objects)
-* [Durable Object WebSocket documentation](https://developers.cloudflare.com/durable-objects/reference/websockets/)
+- [Durable Objects introductory blog post](https://blog.cloudflare.com/introducing-workers-durable-objects)
+- [Durable Objects documentation](https://developers.cloudflare.com/workers/learning/using-durable-objects)
+- [Durable Object WebSocket documentation](https://developers.cloudflare.com/durable-objects/reference/websockets/)
 
 ## Deploy it yourself
 
@@ -69,4 +69,4 @@ tag = "v2"
 deleted_classes = ["ChatRoom", "RateLimiter"]
 ```
 
-Then run `wrangler deploy`, which will delete the Durable Objects and all data stored in them.  To remove the Worker, go to [dash.cloudflare.com](dash.cloudflare.com) and navigate to Workers -> Overview -> edge-chat-demo -> Manage Service -> Delete (bottom of page)
+Then run `wrangler deploy`, which will delete the Durable Objects and all data stored in them. To remove the Worker, go to [dash.cloudflare.com](dash.cloudflare.com) and navigate to Workers -> Overview -> edge-chat-demo -> Manage Service -> Delete (bottom of page)
