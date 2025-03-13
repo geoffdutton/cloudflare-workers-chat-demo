@@ -19,5 +19,10 @@
     "typescript": "^5.4.2",
     "vite": "^6.2.1",
     "wrangler": "^4.0.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": false
   }
 }

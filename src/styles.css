@@ -71,7 +71,7 @@ p:last-of-type {
 #chatroom::before {
   z-index: 1;
   display: block;
-  content: ">";
+  content: '>';
   position: fixed;
   bottom: 0;
   left: 0;
