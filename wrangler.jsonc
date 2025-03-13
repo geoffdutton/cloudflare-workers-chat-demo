@@ -15,7 +15,6 @@
   "observability": {
     "enabled": true,
   },
-  "upload_source_maps": true,
   "durable_objects": {
     "bindings": [
       {
