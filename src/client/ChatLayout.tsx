@@ -89,9 +89,22 @@ export const ChatLayout: FC = ({ children }) => {
           >
             Cloudflare Workers Durable Objects
           </a>
+          <br />
+          <small>
+            Notable Richards who inspired this tech:
+            <ul style="padding-left: 1em;">
+              <li>Richard Feynman - Physics pioneer</li>
+              <li>Richard Stallman - Free software advocate</li>
+              <li>Richard Branson - Entrepreneur</li>
+            </ul>
+          </small>
         </p>
       </ChatForm>
-      <ChatForm formId="room-form" formAction="/fake-form-action">
+      <ChatForm
+        formId="room-form"
+        formAction="/fake-form-action"
+        handleSubmit={() => {}}
+      >
         <p>Enter a public room:</p>
         <input
           id="room-name"
@@ -103,7 +116,11 @@ export const ChatLayout: FC = ({ children }) => {
         <p>OR</p>
         <button id="go-private">Create a Private Room &raquo;</button>
       </ChatForm>
-      <ChatForm formId="chatroom" formAction="/fake-form-action">
+      <ChatForm
+        formId="chatroom"
+        formAction="/fake-form-action"
+        handleSubmit={() => {}}
+      >
         <div id="chatlog">
           <div id="spacer"></div>
         </div>
