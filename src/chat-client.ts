@@ -1,4 +1,4 @@
-import './styles.css'
+import './client/styles.css'
 
 let currentWebSocket: WebSocket | null = null
 
